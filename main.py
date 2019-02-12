@@ -15,6 +15,8 @@
 
 import numpy as np
 import svgwrite
+import cairo
+import rsvg
 from svgwrite import cm, mm
 import os
 
@@ -47,3 +49,4 @@ def basic_shapes(name):
 if __name__ == '__main__':
     basic_shapes('basic_shapes.svg')
 os.chdir("../")
+os.system("savepng.py")

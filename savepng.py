@@ -1,4 +1,3 @@
-<!--
 #
 # #############################################################################
 #       Copyright (c) 2019 mfneirae.com All Rights Reserved.
@@ -13,16 +12,13 @@
 #       Or visit my webpage at https://mfneirae.com/
 # #############################################################################
 #
- -->
 
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Test</title>
-    <link rel="stylesheet" href="/css/master.css">
-  </head>
-  <body>
-      <img src="images/STEM.svg" height="30%" width="30%">
-    <p>Test</p>
-  </body>
-</html>
+from svglib.svglib import svg2rlg
+from reportlab.graphics import renderPDF, renderPM
+import os
+
+os.chdir("images")
+drawing = svg2rlg("STEM.svg")
+renderPDF.drawToFile(drawing, "file.pdf")
+renderPM.drawToFile(drawing, "file.png", fmt="PNG")
+os.chdir("../")
