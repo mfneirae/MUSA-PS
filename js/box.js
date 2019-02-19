@@ -22,6 +22,7 @@ var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
 svg.setAttribute("viewBox", "0 0 211 220");
 svg.setAttribute("width", "210.96037");
 svg.setAttribute("height", "280.96036");
+svg.setAttribute("class","boxbasic");
 
 // *************************************************************
 // Definitions
@@ -32,14 +33,13 @@ var strokewidth = 1;
 // MUSA-BOX
 // *************************************************************
 var svgNS = svg.namespaceURI;
+
     // ID
     var rect = document.createElementNS(svgNS,'rect');
     rect.setAttribute('x',0.47906977);
     rect.setAttribute('y',-25.98737);
     rect.setAttribute('width',210);
     rect.setAttribute('height',20);
-    rect.setAttribute('fill','none');
-    rect.setAttribute('stroke','#000000');
     rect.setAttribute('stroke-width',strokewidth);
     svg.appendChild(rect);
     // TIEMPO ESTIMADO
@@ -48,8 +48,6 @@ var svgNS = svg.namespaceURI;
     rect.setAttribute('y',14.01263);
     rect.setAttribute('width',70);
     rect.setAttribute('height',20);
-    rect.setAttribute('fill','none');
-    rect.setAttribute('stroke','#000000');
     rect.setAttribute('stroke-width',strokewidth);
     svg.appendChild(rect);
     // TIEMPO TARDIO INICIO
@@ -58,8 +56,6 @@ var svgNS = svg.namespaceURI;
     rect.setAttribute('y',14.01263);
     rect.setAttribute('width',70);
     rect.setAttribute('height',20);
-    rect.setAttribute('fill','none');
-    rect.setAttribute('stroke','#000000');
     rect.setAttribute('stroke-width',strokewidth);
     svg.appendChild(rect);
     // TIEMPO TARDIO FINALIZACIÓN
@@ -68,8 +64,6 @@ var svgNS = svg.namespaceURI;
     rect.setAttribute('y',14.01263);
     rect.setAttribute('width',70);
     rect.setAttribute('height',20);
-    rect.setAttribute('fill','none');
-    rect.setAttribute('stroke','#000000');
     rect.setAttribute('stroke-width',strokewidth);
     svg.appendChild(rect);
     // TIEMPO TEMPRANO FINALIZACIÓN
@@ -78,8 +72,6 @@ var svgNS = svg.namespaceURI;
     rect.setAttribute('y',-5.9873743);
     rect.setAttribute('width',70);
     rect.setAttribute('height',20);
-    rect.setAttribute('fill','none');
-    rect.setAttribute('stroke','#000000');
     rect.setAttribute('stroke-width',strokewidth);
     svg.appendChild(rect);
     // TIEMPO TEMPRANO INICIO
@@ -88,8 +80,6 @@ var svgNS = svg.namespaceURI;
     rect.setAttribute('y',-5.9873705);
     rect.setAttribute('width',70);
     rect.setAttribute('height',20);
-    rect.setAttribute('fill','none');
-    rect.setAttribute('stroke','#000000');
     rect.setAttribute('stroke-width',strokewidth);
     svg.appendChild(rect);
     // ALGO QUE NO RECUERDO :v Casilla 1
@@ -98,8 +88,6 @@ var svgNS = svg.namespaceURI;
     rect.setAttribute('y',-5.9873705);
     rect.setAttribute('width',70);
     rect.setAttribute('height',20);
-    rect.setAttribute('fill','none');
-    rect.setAttribute('stroke','#000000');
     rect.setAttribute('stroke-width',strokewidth);
     svg.appendChild(rect);
 
@@ -109,8 +97,6 @@ var svgNS = svg.namespaceURI;
     rect.setAttribute('y',114.01263);
     rect.setAttribute('width',210);
     rect.setAttribute('height',80);
-    rect.setAttribute('fill','none');
-    rect.setAttribute('stroke','#000000');
     rect.setAttribute('stroke-width',strokewidth);
     svg.appendChild(rect);
     // ATRIBUTOS
@@ -119,13 +105,18 @@ var svgNS = svg.namespaceURI;
     rect.setAttribute('y',34.01263);
     rect.setAttribute('width',210);
     rect.setAttribute('height',80);
-    rect.setAttribute('fill','none');
-    rect.setAttribute('stroke','#000000');
     rect.setAttribute('stroke-width',strokewidth);
     svg.appendChild(rect);
-
-
 
     document.body.appendChild(svg);
 
     var h=document.createElement('a');
+
+    var element = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    element.setAttributeNS(null, 'x', '50%');
+    element.setAttributeNS(null, 'y', -11);
+    element.setAttribute('textLength',100);
+    element.setAttribute('font-size',10);
+    var txt = document.createTextNode("Hello World");
+    element.appendChild(txt);
+    svg.appendChild(element);
