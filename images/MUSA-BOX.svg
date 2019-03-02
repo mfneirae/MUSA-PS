@@ -30,25 +30,28 @@
    sodipodi:docname="MUSA-BOX.svg"
    width="210.96037"
    height="220.96036">
+  <style type="text/css">
+    @import url("../CSS/master.css");
+  </style>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0.00112024,26.467552)">
-    <rect
+    <rect class="boxbasic"
        id="rect10"
        width="210"
        height="80"
        x="0.47906977"
        y="34.01263"
-       style="fill:none;stroke:#000000;stroke-width:0.96036476;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="stroke-width:0.96036476;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
        id="rect10-3-9-6"
        width="210"
        height="20"
        x="0.47907066"
        y="-25.98737"
-       style="fill:none;stroke:#000000;stroke-width:0.96036476;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="stroke-width:0.96036476;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
        id="rect10-5"
        width="210"
@@ -99,4 +102,8 @@
        y="-5.9873705"
        style="fill:none;stroke:#000000;stroke-width:0.96036482;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
      </g>
+     <text x="5mm" y="2.1cm" >One,
+        <tspan class="em" y="1.6cm">Two,</tspan>
+        <tspan class="strong em" y="1.1cm">Three!</tspan>
+    </text>
 </svg>
