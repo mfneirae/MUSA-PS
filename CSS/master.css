@@ -14,11 +14,18 @@
 # #############################################################################
 #
  */
+body{
+  background-color: #FBE6C0;
+}
+h1{
+  text-align: center;
+  color: #29313E;
+}
 .boxbasic{
   fill:green;
   stroke:red;
-  stroke-width:0.96036476;
-  stroke-miterlimit:4;
+  stroke-width:2;
+  stroke-miterlimit:5;
   stroke-dasharray:none;
   stroke-opacity:1;
 }

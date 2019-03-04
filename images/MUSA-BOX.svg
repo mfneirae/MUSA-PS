@@ -24,9 +24,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 211 220"
+   viewBox="0 0 211 221"
    version="1.1"
-   id="svg8"
    sodipodi:docname="MUSA-BOX.svg"
    width="210.96037"
    height="220.96036">
@@ -38,72 +37,156 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0.00112024,26.467552)">
-    <rect class="boxbasic"
-       id="rect10"
-       width="210"
-       height="80"
-       x="0.47906977"
-       y="34.01263"
-       style="stroke-width:0.96036476;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       id="rect10-3-9-6"
+<!-- ID BOX -->
+     <rect
+       id="ID-0001"
        width="210"
        height="20"
        x="0.47907066"
-       y="-25.98737"
-       style="stroke-width:0.96036476;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       y="-25.98737" />
+     <text
+       id="IDTEXT-0001"
+       y="-10"
+       transform="translate(100)">
+       <tspan x="0" text-anchor="middle">
+       ID PRIMERA ACTIVIDAD
+       </tspan>
+     </text>
+<!-- EARLY START TIME BOX -->
+     <rect
+        id="EST-0001"
+        width="70"
+        height="20"
+        x="0.47907066"
+        y="-5.9873705"
+        />
+     <text
+        id="ESTTEXT-0001"
+        y="10"
+        transform="translate(33)">
+        <tspan x="0" text-anchor="middle">
+        EST
+        </tspan>
+     </text>
+<!-- EARLY FINISH TIME BOX -->
+     <rect
+        id="EFT-0001"
+        width="70"
+        height="20"
+        x="0.47906977"
+        y="14.01263"/>
+      <text
+         id="EFTTEXT-0001"
+         y="30"
+         transform="translate(33)">
+         <tspan x="0%" text-anchor="middle">
+         EFT
+         </tspan>
+      </text>
+<!-- CODE BOX -->
+      <rect
+         id="CODE-0001"
+         width="70"
+         height="20"
+         x="70.479073"
+         y="-5.9873705"
+         />
+     <text
+        id="CODETEXT-0001"
+        y="10"
+        transform="translate(33)">
+        <tspan x="33.3%" text-anchor="middle">
+        CODE
+        </tspan>
+     </text>
+<!-- DURATION -->
+     <rect
+        id="DURATION-0001"
+        width="70"
+        height="20"
+        x="70.479073"
+        y="14.01263"
+        />
+      <text
+         id="DURATIONTEXT-0001"
+         y="30"
+         transform="translate(33)">
+         <tspan x="33.3%" text-anchor="middle">
+         DUR
+         </tspan>
+      </text>
+<!-- LATE START TIME -->
+      <rect
+         id="LST-0001"
+         width="70"
+         height="20"
+         x="140.47906"
+         y="-5.9873743"
+         />
+     <text
+        id="LSTTEXT-0001"
+        y="10"
+        transform="translate(33)">
+        <tspan x="66.6%" text-anchor="middle">
+        LST
+        </tspan>
+     </text>
+<!-- LATE FINISH TIME -->
+     <rect
+        id="LFT-0001"
+        width="70"
+        height="20"
+        x="140.47903"
+        y="14.012629"
+        />
+    <text
+       id="LFTTEXT-0001"
+       y="30"
+       transform="translate(33)">
+       <tspan x="66.6%" text-anchor="middle">
+       LFT
+       </tspan>
+    </text>
+<!-- ATTRIBUTES BOX -->
     <rect
-       id="rect10-5"
+       id="ATTRIBUTES-0001"
+       width="210"
+       height="80"
+       x="0.47906977"
+       y="34.01263" />
+     <text
+        id="ATTRIBUTESTEXT-0001"
+        y="60"
+        transform="translate(0)">
+        <tspan x="10" text-anchor="start">
+        + Atributo 1 : Qualitative
+        </tspan>
+        <tspan x="10" y="80" text-anchor="start">
+        + Atributo 2 : Quantitative
+        </tspan>
+        <tspan x="10" y="100" text-anchor="start">
+        + Atributo 3 : Mixed
+        </tspan>
+     </text>
+    <rect
+       id="OPERATIONS-0001"
        width="210"
        height="80"
        x="0.47906214"
-       y="114.01263"
-       style="fill:none;stroke:#000000;stroke-width:0.96036476;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       id="rect10-3-0"
-       width="70"
-       height="20"
-       x="0.47906977"
-       y="14.01263"
-       style="fill:none;stroke:#000000;stroke-width:0.96036482;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       id="rect10-3-0-5"
-       width="70"
-       height="20"
-       x="70.479073"
-       y="14.01263"
-       style="fill:none;stroke:#000000;stroke-width:0.96036482;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       id="rect10-3-0-4"
-       width="70"
-       height="20"
-       x="140.47903"
-       y="14.012629"
-       style="fill:none;stroke:#000000;stroke-width:0.96036482;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       id="rect10-3-0-1"
-       width="70"
-       height="20"
-       x="140.47906"
-       y="-5.9873743"
-       style="fill:none;stroke:#000000;stroke-width:0.96036482;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       id="rect10-3-0-0"
-       width="70"
-       height="20"
-       x="70.479073"
-       y="-5.9873705"
-       style="fill:none;stroke:#000000;stroke-width:0.96036482;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       id="rect10-3-0-6"
-       width="70"
-       height="20"
-       x="0.47907066"
-       y="-5.9873705"
-       style="fill:none;stroke:#000000;stroke-width:0.96036482;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-     </g>
-     <text x="5mm" y="2.1cm" >One,
-        <tspan class="em" y="1.6cm">Two,</tspan>
-        <tspan class="strong em" y="1.1cm">Three!</tspan>
+       y="114.01263" />
+   <text
+      id="OPERATIONSTEXT-0001"
+      y="140"
+      transform="translate(0)">
+      <tspan x="10" text-anchor="start">
+      + Operación 1 ()
+      </tspan>
+      <tspan x="10" y="160" text-anchor="start">
+      - Operación 2 ()
+      </tspan>
+      <tspan x="10" y="180" text-anchor="start">
+      - Operación 3 ()
+      </tspan>
     </text>
+   </g>
 </svg>
