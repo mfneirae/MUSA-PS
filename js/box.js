@@ -78,6 +78,7 @@ LFT.setAttribute('fill', 'none');
 ATTRIBUTES.setAttribute('fill', 'none');
 OPERATIONS.setAttribute('fill', 'none');
 //Text
+IDTEXT.setAttribute('font-size', '10');
 ATTRIBUTESTEXT.setAttribute('font-size', '8');
 OPERATIONSTEXT.setAttribute('font-size', '8');
 };

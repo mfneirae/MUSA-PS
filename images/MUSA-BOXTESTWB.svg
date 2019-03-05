@@ -1,0 +1,188 @@
+  <svg xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 211 221" 
+     version="1.1" 
+     sodipodi:docname="MUSA-BOX.svg" 
+     width="210.96037" 
+     height="220.96036"> 
+     <g 
+        inkscape:label="Layer 1" 
+        inkscape:groupmode="layer" 
+        id="layer1" 
+        transform="translate(0.00112024,26.467552)"> 
+   <!-- ID BOX --> 
+        <rect 
+          fill="none" 
+          stroke="black" 
+          id="ID-0001" 
+          width="210" 
+          height="20" 
+          x="0.47907066" 
+          y="-25.98737" /> 
+        <text 
+          id="IDTEXT-0001" 
+          y="-12" 
+          transform="translate(100)"> 
+          <tspan x="0" text-anchor="middle"> 
+0001-ACCIONESUAPA-00.00.00.000-EST
+          </tspan> 
+       </text> 
+   <!-- EARLY START TIME BOX -->  
+        <rect 
+          fill="none" 
+          stroke="black" 
+           id="EST-0001" 
+           width="70" 
+           height="20" 
+           x="0.47907066" 
+           y="-5.9873705" 
+           /> 
+        <text 
+           id="ESTTEXT-0001" 
+           y="10" 
+           transform="translate(33)"> 
+           <tspan x="0" text-anchor="middle"> 
+1
+          </tspan> 
+        </text> 
+   <!-- EARLY FINISH TIME BOX -->  
+        <rect 
+          fill="none" 
+          stroke="black" 
+           id="EFT-0001" 
+           width="70" 
+           height="20" 
+           x="0.47906977" 
+           y="14.01263"/> 
+         <text 
+            id="EFTTEXT-0001" 
+            y="30" 
+            transform="translate(33)"> 
+            <tspan x="0%" text-anchor="middle"> 
+2
+          </tspan> 
+         </text> 
+   <!-- CODE BOX -->  
+         <rect 
+            fill="none" 
+            stroke="black" 
+            id="CODE-0001" 
+            width="70" 
+            height="20" 
+            x="70.479073" 
+            y="-5.9873705" 
+            /> 
+        <text 
+           id="CODETEXT-0001" 
+           y="10" 
+           transform="translate(33)"> 
+           <tspan x="33.3%" text-anchor="middle"> 
+0002
+          </tspan> 
+        </text> 
+   <!-- DURATION -->  
+        <rect 
+          fill="none" 
+          stroke="black" 
+           id="DURATION-0001" 
+           width="70" 
+           height="20" 
+           x="70.479073" 
+           y="14.01263" 
+           /> 
+         <text 
+            id="DURATIONTEXT-0001" 
+            y="30" 
+            transform="translate(33)"> 
+            <tspan x="33.3%" text-anchor="middle"> 
+1.8
+          </tspan> 
+         </text> 
+   <!-- LATE START TIME -->  
+         <rect 
+            fill="none" 
+            stroke="black" 
+            id="LST-0001" 
+            width="70" 
+            height="20" 
+            x="140.47906" 
+            y="-5.9873743" 
+            /> 
+        <text 
+           id="LSTTEXT-0001" 
+           y="10" 
+           transform="translate(33)"> 
+           <tspan x="66.6%" text-anchor="middle"> 
+3
+          </tspan> 
+        </text> 
+   <!-- LATE FINISH TIME -->  
+        <rect 
+          fill="none" 
+          stroke="black" 
+           id="LFT-0001" 
+           width="70" 
+           height="20" 
+           x="140.47903" 
+           y="14.012629" 
+           /> 
+       <text 
+          id="LFTTEXT-0001" 
+          y="30" 
+          transform="translate(33)"> 
+          <tspan x="66.6%" text-anchor="middle"> 
+3
+          </tspan> 
+       </text>  
+   <!-- ATTRIBUTES BOX -->  
+       <rect  
+          fill="none" 
+          stroke="black" 
+          id="ATTRIBUTES-0001" 
+          width="210" 
+          height="80" 
+          x="0.47906977" 
+          y="34.01263" /> 
+        <text 
+           id="ATTRIBUTESTEXT-0001" 
+           y="60" 
+           transform="translate(0)"> 
+           <tspan x="10" text-anchor="start"> 
++ Query DNINFOA : Estadisticos
+          </tspan> 
+        </text> 
+       <rect 
+          fill="none" 
+          stroke="black" 
+          id="OPERATIONS-0001" 
+          width="210" 
+          height="80" 
+          x="0.47906214" 
+          y="114.01263" /> 
+      <text 
+         id="OPERATIONSTEXT-0001" 
+         y="140" 
+         transform="translate(0)"> 
+         <tspan x="10" text-anchor="start"> 
+- Solicitud Informacion DNINFOA ()
+- ETL por periodo academico ()
++ Carga en UAPApp ()
+          </tspan> 
+         <tspan x="10" y="160" text-anchor="start"> 
+- Solicitud Informacion DNINFOA ()
+- ETL por periodo academico ()
++ Carga en UAPApp ()
+          </tspan> 
+         <tspan x="10" y="180" text-anchor="start"> 
+- Solicitud Informacion DNINFOA ()
+- ETL por periodo academico ()
++ Carga en UAPApp ()
+          </tspan> 
+       </text> 
+      </g> 
+ </svg>

@@ -13,12 +13,10 @@
 # #############################################################################
 #
 
-from svglib.svglib import svg2rlg
-from reportlab.graphics import renderPDF, renderPM
-import os
-
-os.chdir("images")
-drawing = svg2rlg("STEM.svg")
-renderPDF.drawToFile(drawing, "file.pdf")
-renderPM.drawToFile(drawing, "file.png", fmt="PNG")
-os.chdir("../")
+def drawfiles():
+    from svglib.svglib import svg2rlg
+    from reportlab.graphics import renderPDF, renderPM
+    drawing = svg2rlg("images/MUSA-BOXTESTWB.svg")
+    renderPDF.drawToFile(drawing, "images/MUSA.pdf")
+    renderPM.drawToFile(drawing, "images/MUSA.png", fmt="PNG")
+    print("READY MDFK")
