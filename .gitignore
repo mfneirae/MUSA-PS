@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# ignore a file type
+*.json
+MUSA-BD.json
+
 # C extensions
 *.so
 
